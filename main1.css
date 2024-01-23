@@ -9,7 +9,7 @@ body{
 .data{
     display: flex;
     flex-wrap: wrap;
-    gap:20rem;
+    gap:14rem;
     flex-direction: column;
     text-align: center;
     
@@ -28,4 +28,7 @@ body{
     width: 30%;
     text-align: center;
     margin: auto;
+}
+.price{
+    font-size: 2rem;
 }

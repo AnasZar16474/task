@@ -7,6 +7,7 @@ async function getdata() {
       <div class="cards">
      <h2 class="heading"> ${ele.title} </h2>
    <img class="thumbnail" src= ${ele.thumbnail} /> 
+   <p class="price"> price is: ${ele.price} <p>
    </div>`;
     })
     .join("");
